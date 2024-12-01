@@ -27,7 +27,6 @@ security:
   globalJobDslSecurityConfiguration:
     useScriptSecurity: false
 jobs:
-  - file: /usr/local/seed-job.groovy
   - script: >
       freeStyleJob("seed-job") {
         description("Seed Job")
